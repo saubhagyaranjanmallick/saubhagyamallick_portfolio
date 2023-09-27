@@ -1,0 +1,11 @@
+.footer-text {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .footer-div {
+    margin-bottom: 0px;
+    margin-top: 2rem;
+    bottom: 0px;
+  }

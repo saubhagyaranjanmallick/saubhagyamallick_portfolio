@@ -1,0 +1,118 @@
+.greet-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+  }
+  
+  .gretting-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+  }
+  
+  .greeting-main {
+    display: flex;
+  }
+  
+  .greeting-main>* {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .Typewriter {
+    margin-top: 80px;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-repo-btn {
+    margin: 30px;
+  }
+  
+  .greeting-image-div {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .greeting-text-div {
+    margin-top: 40px;
+  }
+  
+  .greeting-text {
+    margin-bottom: 50px;
+    font-size: 70px;
+    line-height: 5px;
+  }
+  
+  .greeting-text-p {
+    font-weight: 500;
+    color: rgb(141, 141, 141);
+    font-size: 30px;
+    line-height: 40px;
+    margin-right: 40px;
+  }
+  
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .greeting-text {
+      font-size: 50px;
+    }
+  
+    .greeting-text-p {
+      font-size: 20px;
+    }
+  
+    .greet-main {
+      max-width: 900px;
+    }
+  
+    .Typewriter {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .button-greeting-div {
+      justify-content: space-around;
+    }
+  
+    .greeting-text {
+      font-size: 30px;
+      margin-top: 0px;
+      text-align: center;
+    }
+  
+    .greeting-nickname {
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    .greeting-text-p {
+      font-size: 16px;
+      margin-right: 0px;
+      line-height: normal;
+      text-align: center;
+    }
+  
+    .greeting-main {
+      display: block;
+    }
+  
+    .Typewriter {
+      font-size: 30px;
+      margin-top: 0px;
+      text-align: center;
+    }
+  
+    .greeting-main {
+      display: block;
+    }
+  
+    .portfolio-repo-btn-div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }

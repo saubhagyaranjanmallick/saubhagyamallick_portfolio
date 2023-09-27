@@ -1,0 +1,5 @@
+.chatBot {
+    position: relative;
+    z-index: 9999999;
+    float: right;
+}
