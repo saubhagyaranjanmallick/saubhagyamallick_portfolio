@@ -2,10 +2,10 @@ import React from 'react';
 import { CardContent, Grid, Typography, Card, Avatar, Stack, Tooltip } from "@mui/material";
 import Header from '../../Components/Header/Header';
 import { Helmet } from 'react-helmet';
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 import Footer from '../../Components/Footer/Footer';
 import Certification from "../Educations/Certification";
-import { degrees } from "../../Protfolio";
+// import { degrees } from "../../Protfolio";
 
 
 export const Education = () => {
@@ -22,7 +22,7 @@ export const Education = () => {
             <Header />
 
             {/* <div style={{height:"100vh" , overflowX:"hidden"}}>  */}
-            <Fade bottom duration={2000} distance="40px">
+            {/* <Fade bottom duration={2000} distance="40px"> */}
                 <Grid container spacing={2} justifyContent="center" style={{ marginTop: "50px" }} >
                     <Grid item lg={4}>
                         {/* <img style={{ width: "390px", height: "280px", borderRadius: "0px 25px 0px 25px", }} src={certificate1} alt="logo" /> */}
@@ -41,7 +41,7 @@ export const Education = () => {
                         </Typography>
 
                         <Typography variant='h4' sx={{ textAlign: "center", color: "#EA80FC", fontFamily: "'Gideon Roman',cursive ", marginTop: "20px" }}>  Basic Qualification and
-                            Certifcations </  Typography>
+                            Certifcations </Typography>
 
                         <br />
                         <Grid container justifyContent="center">
@@ -67,9 +67,9 @@ export const Education = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-            </Fade>
+            {/* </Fade> */}
 
-            <Fade top duration={2000} distance="40px">
+            {/* <Fade top duration={2000} distance="40px"> */}
                 <Typography style={{
                     textAlign: "center", fontFamily: "sans-serif", color: "#BDBDBD", marginTop: "10px", fontSize:
                         "48px"
@@ -151,12 +151,12 @@ export const Education = () => {
                         </Card>
                     </Grid>
                 </Grid>
-            </Fade>
+            {/* </Fade> */}
 
-            <Fade bottom duration={2000} distance="40px">
+            {/* <Fade bottom duration={2000} distance="40px"> */}
 
                 <Certification />
-            </Fade>
+            {/* </Fade> */}
 
             <Footer />
 

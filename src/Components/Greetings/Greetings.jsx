@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 import SocialIcon from "../SocialMediaicons/SocialIcon";
 import "./Greetings.css";
 import { Helmet } from 'react-helmet';
@@ -20,7 +20,7 @@ function Greetings() {
           content="Homepage - My Portfolio , React Portfolio, Personal Portfolio, Linked in..etc"
         />
       </Helmet>
-      <Fade bottom duration={2000} distance="40px">
+      {/* <Fade bottom duration={2000} distance="40px"> */}
         <div className="greet-main" id="greeting">
           <div className="greeting-main">
             <div className="greeting-text-div">
@@ -65,7 +65,7 @@ function Greetings() {
             </div>
           </div>
         </div>
-      </Fade>
+      {/* </Fade> */}
     </div>
 
   );

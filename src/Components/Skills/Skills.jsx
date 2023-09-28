@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Skills.css";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 import { Grid, Avatar, Typography, Stack } from "@mui/material";
 import figma from "../../Assets/figma.png";
 import Adobexd from "../../Assets/Adobexd.png";
@@ -23,16 +23,16 @@ function Skills() {
   return (
     <div div className="main" id="skills">
       <div className="skills-header-div">
-        <Fade bottom duration={2000} distance="20px">
+        {/* <Fade bottom duration={2000} distance="20px"> */}
           <h1 className="skills-header" style={{ color: "#fff" }}>
             What I Do?
           </h1>
-        </Fade>
+        {/* </Fade> */}
       </div>
 
       {/* UI & UX Design  */}
 
-      <Fade left duration={1000} distance="100px">
+      {/* <Fade left duration={1000} distance="100px"> */}
 
         <Grid container justifyContent="center" >
           <Grid item lg={1}></Grid>
@@ -63,10 +63,10 @@ function Skills() {
           <Grid item lg={1}></Grid>
         </Grid>
 
-      </Fade>
+      {/* </Fade> */}
       {/* Web Devlopment */}
 
-      <Fade right duration={3000} distance="100px">
+      {/* <Fade right duration={3000} distance="100px"> */}
 
         <Grid container justifyContent="center" >
           <Grid item lg={1}></Grid>
@@ -107,13 +107,13 @@ function Skills() {
           <Grid item lg={1}></Grid>
         </Grid>
 
-      </Fade>
+      {/* </Fade> */}
 
 
 
       {/* Mobile App Devlopment  */}
       <br />
-      <Fade left duration={3000} distance="50px">
+      {/* <Fade left duration={3000} distance="50px"> */}
 
         <Grid container justifyContent="center" >
           <Grid item lg={1}></Grid>
@@ -142,7 +142,7 @@ function Skills() {
           <Grid item lg={1}></Grid>
 
         </Grid>
-      </Fade>
+      {/* </Fade> */}
 
 
 

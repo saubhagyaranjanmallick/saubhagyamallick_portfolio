@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../../Components/Header/Header';
 import { Helmet } from 'react-helmet';
-import { Fade } from "react-reveal";
-import { CardContent, Grid, Typography, Card, Divider, Button, Stack, Chip } from "@mui/material";
+// import { Fade } from "react-reveal";
+import { Grid, Typography,  } from "@mui/material";
 import SocialIcon from "../SocialMediaicons/SocialIcon";
 import Gitdata from "../../Components/Git Data/Gitdata";
 import Footer from '../../Components/Footer/Footer';
@@ -20,7 +20,7 @@ const ContanctForm = () => {
         />
       </Helmet>
       <Header />
-      <Fade top duration={2000} distance="40px">
+      {/* <Fade top duration={2000} distance="40px"> */}
         <Grid container spacing={2} justifyContent="center" style={{ marginTop: "50px" }} >
           <Grid item lg={4}>
             <img style={{ width: "400px", height: "380px", borderRadius: "0px 50px 0px 50px", boxShadow: "initial" }} className="shadow" src={img2} alt="logo" />
@@ -43,13 +43,13 @@ const ContanctForm = () => {
 
         </Grid>
 
-      </Fade>
+      {/* </Fade> */}
 
-      <Fade right duration={2000} distance="100px">
+      {/* <Fade right duration={2000} distance="100px"> */}
         <Gitdata />
-      </Fade>
+      {/* </Fade> */}
 
-      <Fade left duration={2000} distance="100px">
+      {/* <Fade left duration={2000} distance="100px"> */}
         <Grid container spacing={2} justifyContent="center" style={{ marginTop: "50px" }} >
           <Grid item lg={4}>
             <lottie-player
@@ -73,7 +73,7 @@ const ContanctForm = () => {
             </Typography>
           </Grid>
         </Grid>
-      </Fade>
+      {/* </Fade> */}
       <Footer />
     </div>
   )

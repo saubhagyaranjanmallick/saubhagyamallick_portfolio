@@ -2,23 +2,23 @@ import React from 'react'
 
 import { certifications } from "../../Protfolio";
 
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
 
 const Certification = () => {
   return (
     <div className="main" id="certs">
     <div className="certs-header-div">
-        <Fade bottom duration={2000} distance="20px">
+        {/* <Fade bottom duration={2000} distance="20px"> */}
             <h1 className="certs-header" style={{ color: "#fff" }}>
                 Certifications
             </h1>
-        </Fade>
+        {/* </Fade> */}
     </div>
     <div className="certs-body-div">
         {certifications.certifications.map((cert) => {
             return (
-                <Fade bottom duration={2000} distance="20px">
+                
                     <div className="cert-card">
                         <div className="content">
                             <a
@@ -56,7 +56,7 @@ const Certification = () => {
                             </h3>
                         </div>
                     </div>
-                </Fade>
+                
             )
         })}
     </div>

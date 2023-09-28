@@ -60,7 +60,7 @@ const ExperienceCards = () => {
               <Typography style={{ fontFamily: "cursive" }}>Work Experience</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Card sx={{ border: 1, border: "2px dotted #01579b", borderColor: '#01579b', boxShadow: "none", }}>
+              <Card sx={{ border: "2px dotted #01579b", borderColor: '#01579b', boxShadow: "none", }}>
                 <Grid container>
                   <Grid item lg={1}> <Avatar alt="Remy Sharp" style={{ padding: "5px", width: "100px", height: "90px", }} src="https://media.glassdoor.com/sqll/503743/silicon-techlab-squarelogo-1643983959442.png" /> </Grid>
                   <Grid item lg={9}>
@@ -77,7 +77,7 @@ const ExperienceCards = () => {
                 </Grid>
               </Card>
               <br />
-              <Card sx={{ border: 1, border: "2px dotted #01579b", borderColor: '#01579b', boxShadow: "none", }}>
+              <Card sx={{  border: "2px dotted #01579b", borderColor: '#01579b', boxShadow: "none", }}>
                 <Grid container>
                   <Grid item lg={1}> <Avatar alt="Remy Sharp" style={{ padding: "5px", width: "100px", height: "90px", }} src="https://media.glassdoor.com/sqll/503743/silicon-techlab-squarelogo-1643983959442.png" /> </Grid>
                   <Grid item lg={9}>
@@ -107,7 +107,7 @@ const ExperienceCards = () => {
               <Typography style={{ fontFamily: "cursive" }} > Internships</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Card sx={{ border: 1, border: "2px dotted #01579b", borderColor: '#01579b', boxShadow: "none", }}>
+              <Card sx={{ border:"2px dotted #01579b",  boxShadow: "none", }}>
                 <Grid container>
                   <Grid item lg={1}> <Avatar alt="Remy Sharp" style={{ padding: "5px", width: "100px", height: "70px", }} src="https://futurumresearch.com/wp-content/uploads/2020/01/aws-logo-1280x720.png" /> </Grid>
                   <Grid item lg={9}>
