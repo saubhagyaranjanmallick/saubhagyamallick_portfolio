@@ -10,7 +10,7 @@ import Certification from "../Educations/Certification";
 
 export const Education = () => {
     return (
-        <div>
+        <div style={{overflowX:"hidden" , overflowY:"auto"}}>
 
             <Helmet>
                 <title>Saubhagya Mallick | Educations</title>

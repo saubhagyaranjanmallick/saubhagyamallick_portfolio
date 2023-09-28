@@ -11,7 +11,7 @@ import img2 from "../../Assets/img2.png";
 
 const ContanctForm = () => {
   return (
-    <div>
+    <div style={{overflowX:"hidden" , overflowY:"auto"}}>
       <Helmet>
         <title>Saubhagya Mallick | Contanct </title>
         <meta
@@ -36,7 +36,9 @@ const ContanctForm = () => {
 
             <Grid container justifyContent="center" >
               <SocialIcon />
+         
             </Grid>
+
           </Grid>
 
 

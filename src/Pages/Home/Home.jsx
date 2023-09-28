@@ -20,9 +20,7 @@ const Home = () => {
         sx={{
           flexGrow: 1,
           width: "100%",
-          overflowX: "hidden",
-          overflowY:"auto",
-          display:"block",
+         
         }}
       >
         <Header />
