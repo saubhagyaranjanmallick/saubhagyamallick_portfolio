@@ -19,7 +19,6 @@ function Greetings() {
           content="Homepage - My Portfolio , React Portfolio, Personal Portfolio, Linked in..etc"
         />
       </Helmet>
-      {/* <Fade bottom duration={2000} distance="40px"> */}
       <BrowserView>
         <div className="greet-main" id="greeting">
           <div className="greeting-main">
@@ -49,9 +48,7 @@ function Greetings() {
                   }}
                 />
 
-                {/* <span style={{ marginRight: "10px" }}>I'm</span>
-                <span style={{ color: "#E3405F" }}>{greeting.fullname}. </span>
-                {greeting.subTitle} */}
+              
               </p>
               <SocialIcon />
             </div>
@@ -70,7 +67,6 @@ function Greetings() {
         </div>
       </BrowserView>
       <MobileView>
-        {/* <div className="greeting-main"> */}
         <div>
           <Typography
             variant="h4"
@@ -107,9 +103,7 @@ function Greetings() {
 </div>
         </div>
 
-        {/* </div> */}
       </MobileView>
-      {/* </Fade> */}
     </>
   );
 }

@@ -254,10 +254,9 @@ function Skills() {
       <MobileView>
         <Grid container justifyContent="center">
           <Grid item lg={12}>
-            <Typography
+            <Typography variant="h5"
               style={{
                 fontFamily: "sans",
-                fontSize: "35px",
                 fontStyle: "bold",
                 marginTop: "50px",
               }}
@@ -269,48 +268,47 @@ function Skills() {
               <Avatar
                 variant="rounded"
                 alt="Remy Sharp"
-                sx={{ width: 45, height: 45 }}
+                sx={{ width: 40, height: 40 }}
                 src={Adobexd}
               />
               <Avatar
                 variant="rounded"
                 alt="Travis Howard"
-                sx={{ width: 45, height: 45 }}
+                sx={{ width: 40, height: 40 }}
                 src={figma}
               />
               <Avatar
                 variant="rounded"
                 alt="Cindy Baker"
-                sx={{ width: 45, height: 45 }}
+                sx={{ width: 40, height: 40 }}
                 src={Icons8}
               />
               <Avatar
                 variant="rounded"
                 alt="Remy Sharp"
-                sx={{ width: 45, height: 45 }}
+                sx={{ width: 40, height: 40 }}
                 src={Adobeps}
               />
             </Stack>
             <br />
-            <Typography style={{ fontSize: "14px", spacing: "5px" }}>
+            <Typography style={{ fontSize: "12px", spacing: "5px" }}>
               ⚡Building attractive design and layouts using Figma{" "}
             </Typography>
 
-            <Typography style={{ fontSize: "14px", spacing: "5px" }}>
+            <Typography style={{ fontSize: "12px", spacing: "5px" }}>
               ⚡Creating icons and editing images in photoshop{" "}
             </Typography>
 
-            <Typography style={{ fontSize: "14px", spacing: "5px" }}>
+            <Typography style={{ fontSize: "12px", spacing: "5px" }}>
               ⚡Making demo website and app design also
             </Typography>
           </Grid>
         
 
           <Grid item lg={12}>
-              <Typography
+              <Typography  variant="h5"
                 style={{
                   fontFamily: "sans",
-                  fontSize: "35px",
                   fontStyle: "bold",
                   marginTop:"15px",
                   textAlign:"right"
@@ -323,84 +321,83 @@ function Skills() {
                 <Avatar
                   variant="rounded"
                   alt="Remy Sharp"
-                  sx={{ width: 45, height: 45 , }}
+                  sx={{ width: 40, height: 40 , }}
                   src={js}
                 />
                 <Avatar
                   variant="rounded"
                   alt="Travis Howard"
-                  sx={{ width: 45, height: 45 }}
+                  sx={{ width: 40, height: 40 }}
                   src={react}
                 />
                 <Avatar
                   variant="rounded"
                   alt="Cindy Baker"
-                  sx={{ width: 45, height: 45 }}
+                  sx={{ width: 40, height: 40 }}
                   src={sql}
                 />
                 <Avatar
                   variant="rounded"
                   alt="Remy Sharp"
-                  sx={{ width: 45, height: 45 }}
+                  sx={{ width: 40, height: 40 }}
                   src={nodejs}
                 />
               </Stack>
               <br/>
-              <Typography style={{ fontSize: "14px", spacing: "5px",marginTop:"55px" }}>
-                ⚡ Building resposive websites using Mui and talwind CSS
+              <Typography style={{ fontSize: "12px", spacing: "5px",marginTop:"55px" }}>
+                ⚡ Building resposive websites using Mui,talwind CSS
               </Typography>
 
-              <Typography style={{ fontSize: "14px", spacing: "5px" }}>
+              <Typography style={{ fontSize: "12px", spacing: "5px" }}>
                 ⚡Creating application backend in Node, Express 
               </Typography>
 
-              <Typography style={{ fontSize: "14px", spacing: "5px" }}>
-                ⚡Complete unit testing by jReact jest
+              <Typography style={{ fontSize: "12px", spacing: "5px" }}>
+                ⚡Complete unit testing by React jest
               </Typography>
             </Grid>
 
             <Grid item lg={12}>
-              <Typography
+              <Typography variant="h5"
                 style={{
                   fontFamily: "sans",
-                  fontSize: "35px",
                   fontStyle: "bold",
                   marginTop:"25px",
 
                 }}
               >
                 {" "}
-                Mob App Devlop..{" "}
+                Mobile App Development
               </Typography>
               <Stack direction="row" spacing={3} padding={1} className="App" style={{float: "left"}}>
                 <Avatar
                   variant="rounded"
                   alt="Remy Sharp"
-                  sx={{ width: 45, height: 45 }}
+                  sx={{ width: 40, height: 40 }}
                   src={android}
                 />
                 <Avatar
                   variant="rounded"
                   alt="Travis Howard"
-                  sx={{ width: 45, height: 45 }}
+                  sx={{ width: 40, height: 40 }}
                   src={react}
                 />
                 <Avatar
                   variant="rounded"
                   alt="Cindy Baker"
-                  sx={{ width: 45, height: 45 }}
+                  sx={{ width: 40, height: 40 }}
                   src={xcode}
                 />
                 <Avatar
                   variant="rounded"
                   alt="Remy Sharp"
-                  sx={{ width: 45, height: 45 }}
+                  sx={{ width: 40, height: 40 }}
                   src={playstore}
                 />
-                {/* <Avatar variant="rounded" alt="Travis Howard" sx={{ width: 65, height: 65 }} src={appstore} /> */}
               </Stack>
-              <Typography style={{ fontSize: "12px", spacing: "5px" }}>
-                ⚡Building dynamic app by React Native & Android studio
+              <br/>
+              <Typography style={{ fontSize: "12px", spacing: "5px",marginTop:"20px" }}>
+                ⚡Building dynamic app by React Native
               </Typography>
 
               <Typography style={{ fontSize: "12px", spacing: "5px" }}>
