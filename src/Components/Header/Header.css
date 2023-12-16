@@ -1,15 +1,15 @@
 .header {
     width: 100vw;
     display: block;
-    max-width: 90%;
+    max-width: 100%;
     padding: 20px 0px;
     margin: 0px auto;
 }
 
 .header .logo{
     display: block;
-    float: left;
-    font-size: 1.3em;
+    float: right;
+    font-size: 1.4em;
     text-decoration: none;
     margin-top: 10px;
     line-height: normal;
@@ -40,7 +40,7 @@
 .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    float: left;
     padding: 28px 20px;
     position: relative;
     user-select: none;

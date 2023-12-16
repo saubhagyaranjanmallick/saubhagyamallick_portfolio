@@ -2,17 +2,16 @@ import React from "react";
 // import { Fade } from "react-reveal";
 import SocialIcon from "../SocialMediaicons/SocialIcon";
 import "./Greetings.css";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import Typewriter from "typewriter-effect";
 
 import { greeting } from "../../Protfolio";
-
-
+import { BrowserView, MobileView } from "react-device-detect";
+import { Typography } from "@mui/material";
 
 function Greetings() {
   return (
-
-    <div>
+    <>
       <Helmet>
         <title>Saubhagya Mallick | Home</title>
         <meta
@@ -21,19 +20,24 @@ function Greetings() {
         />
       </Helmet>
       {/* <Fade bottom duration={2000} distance="40px"> */}
+      <BrowserView>
         <div className="greet-main" id="greeting">
           <div className="greeting-main">
             <div className="greeting-text-div">
-              <h1 className="greeting-text" style={{ color: "#E0E0E0", textAlign: "left" }}>
+              <h1
+                className="greeting-text"
+                style={{ color: "#E0E0E0", textAlign: "left" }}
+              >
                 {greeting.title}
               </h1>
 
               <p className="greeting-text-p subTitle">
-                <Typewriter 
+                <Typewriter
                   options={{
                     strings: [
                       "I'm Saubhagya Ranjan Mallick",
                       "Web Developer 💻",
+                      "Mobile Developer 📱",
                       "MERN Stack Developer 🧑‍💻",
                       "Open Source Contributor 😊",
                     ],
@@ -41,7 +45,7 @@ function Greetings() {
                     loop: true,
                     deleteSpeed: 50,
                     // cursor: "🔥",
-                    Boolean: true
+                    Boolean: true,
                   }}
                 />
 
@@ -52,8 +56,7 @@ function Greetings() {
               <SocialIcon />
             </div>
 
-
-            <div >
+            <div>
               <lottie-player
                 src="https://assets1.lottiefiles.com/packages/lf20_kyu7xb1v.json"
                 style={{ width: "95%", height: "70%" }}
@@ -65,12 +68,50 @@ function Greetings() {
             </div>
           </div>
         </div>
-      {/* </Fade> */}
-    </div>
+      </BrowserView>
+      <MobileView>
+        {/* <div className="greeting-main"> */}
+        <div>
+          <Typography
+            variant="h4"
+            style={{
+              color: "#E0E0E0",
+              textAlign: "left",
+              fontWeight: "bold",
+              marginTop: "10px",
+            }}
+          >
+            &nbsp; {greeting.title}
+          </Typography>
+          <p className="greeting-text-p subTitle">
+            <Typewriter
+              options={{
+                strings: [
+                  "I'm Saubhagya Ranjan",
+                  "Web Developer 💻",
+                  "Mobile Developer 📱",
+                  "MERN Stack Developer",
+                ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 50,
+                // cursor: "🔥",
+                Boolean: true,
+                fontSize: 14,
+              }}
+            />
+          </p>
+<div style={{float:"right"}}>
+<SocialIcon/>
 
+</div>
+        </div>
+
+        {/* </div> */}
+      </MobileView>
+      {/* </Fade> */}
+    </>
   );
 }
-
-
 
 export default Greetings;

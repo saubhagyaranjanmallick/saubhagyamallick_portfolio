@@ -2,7 +2,7 @@
     width: 90%;
     padding: 20px 10px;
     margin: 0px auto;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
   
   .gretting-main {
@@ -22,9 +22,10 @@
   
   .Typewriter {
     margin-top: 80px;
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
     margin-bottom: 20px;
+    text-align: left;
   }
   
   .portfolio-repo-btn {
@@ -44,14 +45,17 @@
     margin-bottom: 50px;
     font-size: 70px;
     line-height: 5px;
+    
   }
   
   .greeting-text-p {
     font-weight: 500;
     color: rgb(141, 141, 141);
-    font-size: 30px;
+    font-size: 26px;
     line-height: 40px;
     margin-right: 40px;
+    text-align: left;
+
   }
   
   /* Media Query */

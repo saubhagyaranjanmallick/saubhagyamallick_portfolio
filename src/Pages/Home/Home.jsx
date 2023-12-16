@@ -5,6 +5,7 @@ import Header from "../../Components/Header/Header";
 import { Box } from "@mui/material";
 import Greetings from "../../Components/Greetings/Greetings";
 import Skills from "../../Components/Skills/Skills";
+import { BrowserView, MobileView } from "react-device-detect";
 
 const Home = () => {
   return (
@@ -16,18 +17,34 @@ const Home = () => {
           content="Homepage - My Portfolio , React Portfolio, Personal Portfolio, Linked in..etc"
         />
       </Helmet>
+      <BrowserView>
+        <Box
+          sx={{
+            flexGrow: 1,
+            width: "100%",
+          }}
+        >
+          <Header />
+          <Greetings />
+          <Skills />
+          <Footer />
+        </Box>
+      </BrowserView>
+      <MobileView>
       <Box
-        sx={{
-          flexGrow: 1,
-          width: "100%",
-         
-        }}
-      >
+          sx={{
+            flexGrow: 1,
+            width: "100%",
+          }}
+        >
         <Header />
         <Greetings />
         <Skills />
         <Footer />
-      </Box>
+
+        </Box>
+
+      </MobileView>
     </div>
   );
 };
