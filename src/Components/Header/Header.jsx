@@ -112,10 +112,10 @@ const Header = () => {
                     <span style={{ color: "white" }}> &lt;</span>
                     <span
                       className="logo-name"
-                      style={{ color: "white", fontSize: "24px" }}
+                      style={{ color: "white", fontSize: "23px" }}
                     >
                       Saubhagya
-                      <span style={{ color: "#E040FB", fontSize: "24px" }}>
+                      <span style={{ color: "#E040FB", fontSize: "23px" }}>
                         Ranjan
                       </span>
                     </span>
